@@ -4,7 +4,7 @@
     This project was made by "RASH"
 
 ## About
-   This project was a simple assignment given to test our still growing skills. it's about implement a blog page
+   This project was a simple assignment given to test our still growing skills. it's about implementing a blog page
 
 ## OPENNING THE PROGRAM
     It is as simple as clicking on it's link, or searching this url on your browser "///"
