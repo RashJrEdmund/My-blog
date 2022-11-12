@@ -48,6 +48,7 @@ footer button {
 }
 
 .first-column {
+  background-color: gold;
   display: grid;
   grid-template-columns: 1fr;
   height: fit-content;
@@ -129,6 +130,10 @@ footer button {
   margin-bottom: 2rem;
   padding-bottom: 9px;
   box-shadow: 0 0 10px #000;
+}
+
+.second-column {
+  background-color: yellowgreen;
 }
 
 .avatar img {
