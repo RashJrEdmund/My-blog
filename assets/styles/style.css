@@ -52,6 +52,7 @@ footer button {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr;
+
   /* height: 900px; */
   height: fit-content;
   row-gap: 2rem;
@@ -101,6 +102,7 @@ footer button {
   display: flex;
   padding: 10px;
   align-items: center;
+  
   /* background-color: gold; */
 }
 
