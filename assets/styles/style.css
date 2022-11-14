@@ -35,12 +35,13 @@ footer button {
 /* EDDITING THE SECTION WHOLE */
 
 .whole {
-  max-width: 1224px;
-  padding: 0 10px;
+  max-width: 1370px;
+  width: 97%;
+  padding-bottom: 10px;
   margin: auto;
   display: grid;
-  grid-template-columns: 60% auto;
-  gap: 1rem;
+  grid-template-columns: 66% auto;
+  gap: 2rem;
 }
 
 .whole a {
@@ -48,11 +49,13 @@ footer button {
 }
 
 .first-column {
-  background-color: gold;
   display: grid;
   grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  /* height: 900px; */
   height: fit-content;
   row-gap: 2rem;
+  padding-bottom: 30px;
 }
 
 /* END EDDITING THE SECTION WHOLE */
@@ -63,10 +66,13 @@ footer button {
   border-radius: 3px;
   box-shadow: 0 0 10px;
   height: fit-content;
+  width: 100%;
 }
 
 .figure1-and-figure2 img {
   width: 100%;
+  height: 20vw;
+  max-height: 22rem;
 }
 
 .figure1-and-figure2 button {
@@ -76,10 +82,6 @@ footer button {
   opacity: 0.7;
   font-size: large;
 }
-
-/* .blog-entry-img {
-  height: 10.5rem;
-} */
 
 .figure1-and-figure2 header {
   font-size: 1.8rem;
@@ -99,6 +101,7 @@ footer button {
   display: flex;
   padding: 10px;
   align-items: center;
+  /* background-color: gold; */
 }
 
 .box-footer .read-more {
@@ -118,6 +121,7 @@ footer button {
 
 .comments button {
   background-color: #000;
+  opacity: 1;
   color: #fff;
   border-radius: 100%;
 }
@@ -130,10 +134,11 @@ footer button {
   margin-bottom: 2rem;
   padding-bottom: 9px;
   box-shadow: 0 0 10px #000;
+  width: 100%;
 }
 
 .second-column {
-  background-color: yellowgreen;
+  height: fit-content;
 }
 
 .avatar img {
@@ -141,23 +146,25 @@ footer button {
 }
 
 .avatar header {
-  padding: 10px;
+  padding: 5px 10px;
   font-size: 1.3rem;
 }
 
 .avatar p {
-  padding: 10px;
+  padding: 5px 10px;
 }
 
 .popular-posts {
   box-shadow: 0 0 10px #000;
+  margin-bottom: 2rem;
+  width: 100%;
 }
 
 .popular-posts-content {
   display: flex;
-  gap: 1rem;
+  column-gap: 1rem;
   align-items: center;
-  margin: 10px;
+  margin: 0 10px;
 }
 
 .popular-posts hr {
@@ -167,7 +174,7 @@ footer button {
 .popular-posts .header {
   background-color: #d3d3d3;
   font-size: 1.4rem;
-  padding: 1.3rem 10px;
+  padding: 1.2rem 10px;
   opacity: 0.5;
 }
 
@@ -176,13 +183,17 @@ footer button {
   height: 3.5rem;
 }
 
+.popular-posts-column2 {
+  height: 100%;
+}
+
 /* THIS CODE IS FOR THE VARYING DIV */
 
 .varying-div {
   display: flex;
-  gap: 1rem;
+  column-gap: 1rem;
   align-items: center;
-  margin: 10px;
+  margin: 0 10px;
 }
 
 .varying-div img {
@@ -233,7 +244,7 @@ footer button {
 /* HEADING TOWARDS THE FOOTER */
 
 footer {
-  height: 8rem;
+  height: 10rem;
   background-color: #616161;
   padding: 1rem;
 }
@@ -272,6 +283,10 @@ footer .powered-by {
 @media only screen and (max-width: 768px) {
   .whole {
     grid-template-columns: 1fr;
+  }
+
+  .figure1-and-figure2 img {
+    height: auto;
   }
 
   .varying-div {
