@@ -1,0 +1,299 @@
+body {
+  font-family: sans-serif;
+  background-color: #f1f1f1;
+  margin: 0;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer button {
+  font-size: 1rem;
+}
+
+/* EDDITING THE TWO TOP HEADERS */
+
+.my-blog {
+  width: fit-content;
+  margin: 3rem auto 4rem;
+  text-align: center;
+}
+
+.my-blog header {
+  font-size: 2.3rem;
+  font-weight: 550;
+}
+
+.my-blog button {
+  background-color: #000;
+  color: #fff;
+}
+
+/* END EDDITING THE TWO TOP HEADERS */
+
+/* EDDITING THE SECTION WHOLE */
+
+.whole {
+  max-width: 1370px;
+  width: 97%;
+  padding-bottom: 10px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 66% auto;
+  gap: 2rem;
+}
+
+.whole a {
+  text-decoration: none;
+}
+
+.first-column {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+
+  /* height: 900px; */
+  height: fit-content;
+  row-gap: 2rem;
+  padding-bottom: 30px;
+}
+
+/* END EDDITING THE SECTION WHOLE */
+
+/* EDDITING FIGURE1 AND FIGURE2 */
+
+.figure1-and-figure2 {
+  border-radius: 3px;
+  box-shadow: 0 0 10px;
+  height: fit-content;
+  width: 100%;
+}
+
+.figure1-and-figure2 img {
+  width: 100%;
+  height: 20vw;
+  max-height: 22rem;
+}
+
+.figure1-and-figure2 button {
+  background-color: #f1f1f1;
+  border: none;
+  color: #000;
+  opacity: 0.7;
+  font-size: large;
+}
+
+.figure1-and-figure2 header {
+  font-size: 1.8rem;
+  font-weight: 549;
+  margin: 10px;
+}
+
+.figure1-and-figure2 .header2 {
+  margin: 10px;
+}
+
+.figure-paragraph {
+  margin: 10px;
+}
+
+.box-footer {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+
+  /* background-color: gold; */
+}
+
+.box-footer .read-more {
+  border: 0.5px solid #d3d3d3;
+  color: #000;
+  padding: 1rem;
+  align-items: flex-end;
+}
+
+.box-footer .read-more:hover {
+  background-color: #d3d3d3;
+}
+
+.box-footer .comments {
+  margin-left: auto;
+}
+
+.comments button {
+  background-color: #000;
+  opacity: 1;
+  color: #fff;
+  border-radius: 100%;
+}
+
+/* END EDDITING FIGURE1 AND FIGURE2 */
+
+/* MOVING ON TO THE SECOND COLUMN */
+
+.avatar {
+  margin-bottom: 2rem;
+  padding-bottom: 9px;
+  box-shadow: 0 0 10px #000;
+  width: 100%;
+}
+
+.second-column {
+  height: fit-content;
+}
+
+.avatar img {
+  width: 100%;
+}
+
+.avatar header {
+  padding: 5px 10px;
+  font-size: 1.3rem;
+}
+
+.avatar p {
+  padding: 5px 10px;
+}
+
+.popular-posts {
+  box-shadow: 0 0 10px #000;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.popular-posts-content {
+  display: flex;
+  column-gap: 1rem;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.popular-posts hr {
+  opacity: 0.5;
+}
+
+.popular-posts .header {
+  background-color: #d3d3d3;
+  font-size: 1.4rem;
+  padding: 1.2rem 10px;
+  opacity: 0.5;
+}
+
+.popular-posts-content img {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.popular-posts-column2 {
+  height: 100%;
+}
+
+/* THIS CODE IS FOR THE VARYING DIV */
+
+.varying-div {
+  display: flex;
+  column-gap: 1rem;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.varying-div img {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+/* THE VARYING DIV'S CODE ENDS HERE */
+
+.tags {
+  box-shadow: 0 0 10px #000;
+  width: 100%;
+}
+
+.tags-header {
+  padding: 10px;
+  font-size: 1.4rem;
+  background-color: #d3d3d3;
+  opacity: 0.5;
+}
+
+.tags-cube-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1rem 10px;
+  padding-bottom: 1rem;
+  height: auto;
+}
+
+.tag-cubes {
+  background-color: #d3d3d3;
+  border: none;
+  padding: 2px;
+  margin: 8px 3px;
+  opacity: 0.7;
+}
+
+.tag-cube-travel {
+  background-color: #000;
+  border: none;
+  color: #fff;
+  margin: 8px 3px;
+  padding: 3px 5px;
+}
+
+/* ENDING THE SECOND AND LAST COLUMN */
+
+/* HEADING TOWARDS THE FOOTER */
+
+footer {
+  height: 10rem;
+  background-color: #616161;
+  padding: 1rem;
+}
+
+footer .previous {
+  padding: 1rem;
+  border: none;
+  background-color: #000;
+  opacity: 0.4;
+  color: #fff;
+}
+
+footer .previous:hover {
+  background-color: gray;
+}
+
+footer .next {
+  padding: 1rem 2rem;
+  border: none;
+  background-color: #000;
+  color: #fff;
+}
+
+footer .next:hover {
+  background-color: #d3d3d3;
+  color: #000;
+}
+
+footer .powered-by {
+  color: #fff;
+  margin-top: 2rem;
+}
+
+/* ENDING THE FOOTER */
+
+@media only screen and (max-width: 768px) {
+  .whole {
+    grid-template-columns: 1fr;
+  }
+
+  .figure1-and-figure2 img {
+    height: auto;
+  }
+
+  .varying-div {
+    /* visibility: hidden; */
+
+    display: none;
+  }
+}
