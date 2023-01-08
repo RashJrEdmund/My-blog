@@ -27,6 +27,8 @@ footer button {
 
 .my-blog button {
   background-color: #000;
+  border: none;
+  padding: 2px 5px;
   color: #fff;
 }
 
@@ -164,7 +166,7 @@ footer button {
 
 .popular-posts-content {
   display: flex;
-  column-gap: 1rem;
+  gap: 1rem;
   align-items: center;
   margin: 0 10px;
 }
